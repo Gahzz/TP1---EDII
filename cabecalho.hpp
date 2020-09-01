@@ -50,6 +50,22 @@ typedef struct TipoPagina {
 	TipoApontador p[MM + 1];
 } TipoPagina;
 
+//ESTRUTURAS PARA ARVORE B* DE ORDEM M
+typedef struct TipoPagina {
+TipoIntExt Pt;
+union {
+struct {
+int ni;
+TipoChave ri[MM];
+55
+TipoApontador pi[MM + 1];
+} U0;
+struct {
+int ne;
+TipoRegistro re[MM2];
+} U1;
+} UU;
+} TipoPagina;
 
 //FUNCOES P/ PESQUISA SEQUENCIAL INDEXADA:
 int pesquisa_Sequencial (indice tab[], int tam, Titem* item, FILE *arq);
