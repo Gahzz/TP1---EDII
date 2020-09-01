@@ -56,7 +56,7 @@ typedef struct TipoRegistro {
 TipoChave Chave;
 } TipoRegistro;
 
-typedef enum {Interna, Externa} TipoIntExt;
+typedef enum {Int, Ext} TipoIntExt;
 typedef struct TipoPagina* TipoApontador;
 typedef struct TipoPagina {
 TipoIntExt Pt;
