@@ -57,7 +57,6 @@ union {
 struct {
 int ni;
 TipoChave ri[MM];
-55
 TipoApontador pi[MM + 1];
 } U0;
 struct {
