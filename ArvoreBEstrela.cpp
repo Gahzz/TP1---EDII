@@ -5,7 +5,7 @@ using namespace std;
 void Pesquisa(TipoRegistro *x, TipoApontador *Ap)
 {int i;
 TipoApontador arvore;
-arvore = *Ap;
+arvore = *Ap; 
 if ((*Ap)->Pt == Int)
 { i = 1;
 //PESQUISA SEQUENCIAL EM PAGINA INTERNA
