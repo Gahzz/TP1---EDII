@@ -51,6 +51,13 @@ typedef struct TipoPagina {
 } TipoPagina;
 
 //ESTRUTURAS PARA ARVORE B* DE ORDEM M
+typedef long TipoChave;
+typedef struct TipoRegistro {
+TipoChave Chave;
+} TipoRegistro;
+
+typedef enum {Interna, Externa} TipoIntExt;
+typedef struct TipoPagina* TipoApontador;
 typedef struct TipoPagina {
 TipoIntExt Pt;
 union {
